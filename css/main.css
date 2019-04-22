@@ -1,0 +1,45 @@
+
+:root {
+  --mainWhite: #f7f9f9;
+  --purple: #951b99;
+  --blue: #2e39b6;
+}
+body {
+  background: var(--mainWhite);
+}
+.input-group-text {
+  background: var(--purple);
+  color: var(--mainWhite);
+  border-color: var(--purple);
+}
+.form-control {
+  border: 0.2rem solid var(--purple);
+}
+.submitBtn {
+  color: var(--blue);
+  background: var(--mainWhite);
+  border: 0.2rem solid var(--blue);
+  transition: all 1s ease-in-out;
+}
+.submitBtn:hover {
+  background: var(--blue);
+  color: var(--mainWhite);
+}
+.fail {
+  border-color: red;
+}
+.complete {
+  border-color: green;
+}
+.feedback {
+  display: none;
+}
+.loading {
+  display: none;
+}
+:disabled {
+  opacity: 0.2 !important;
+}
+.showItem {
+  display: block;
+}
